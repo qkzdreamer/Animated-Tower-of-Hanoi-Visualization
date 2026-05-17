@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #4f9cfb;
+  --color-secondary: #62f5d3;
+  --color-dark: #0b1020;
+  --color-light: #f5f7fb;
+  --color-text: #1f2a44;
+  --color-text-light: #e9eef7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--color-dark);
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
